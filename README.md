@@ -11,6 +11,8 @@ VBA_PortFolio_1
 
 ![構成図](/docs/portfolio_1.drawio.png)
 
+[![紹介動画](docs\サムネイル.png)](https://youtu.be/OihXIm_BcHs)
+
 ## Usage
 
 Provide examples of how to use the project.
