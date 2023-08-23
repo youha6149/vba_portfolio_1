@@ -10,10 +10,10 @@ VBA_PortFolio_1
 ## Introduction video
 
 ### 1. スクレイピングマクロの実行
--> Webサイト(https://www.net-japan.co.jp/precious_metal/kakaku_past.html)からjsonファイルを取得してDBに挿入します。実運用では繰り返し使われる処理ではないと想定されますが、技術の証明として作成しております。
+-> [Webサイト](https://www.net-japan.co.jp/precious_metal/kakaku_past.html)(株式会社ネットジャパン様のWebサイトのデータをお借りしました。書類面接の終了と同時に公開を停止します。)からjsonファイルを取得してDBに挿入します。実運用では繰り返し使われる処理ではないと想定されますが、技術の証明として作成しております。
 
 ### 2. PowerQueryを用いたデータの更新と表示
--> 1.PowerQueryを用いてDBに接続し、指定した期間のピボットテーブルとグラフを表示する
+-> PowerQueryを用いてDBに接続し、指定した期間のピボットテーブルとグラフを表示する
 
 ### 3. スクレイピングをバッチファイルから実行
 -> 指定の時間にタスクスケジューラから実行され、最新データのみをDBに挿入する
@@ -22,7 +22,6 @@ VBA_PortFolio_1
 -> スクレイピングによって取得したデータはmarket_table、nj_buy_table、nj_sell_tableに保存され利用する
 
 [![紹介動画](docs\サムネイル.png)](https://youtu.be/OihXIm_BcHs)
-
 
 ## diagram
 
