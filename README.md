@@ -3,9 +3,9 @@
 VBA_PortFolio_1
 
 ## Table of Contents
+- [Introduction video](#introduction-video)
 - [diagram](#diagram)
 - [description](#description)
-- [Introduction video](#introduction-video)
 
 ## Introduction Video
 
