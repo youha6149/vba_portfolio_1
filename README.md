@@ -7,6 +7,22 @@ VBA_PortFolio_1
 - [description](#description)
 - [Introduction video](#introduction-video)
 
+## Introduction video
+
+### 1. スクレイピングマクロの実行
+-> Webサイト(https://www.net-japan.co.jp/precious_metal/kakaku_past.html)からjsonファイルを取得してDBに挿入します。実運用では繰り返し使われる処理ではないと想定されますが、技術の証明として作成しております。
+
+### 2. PowerQueryを用いたデータの更新と表示
+-> 1.PowerQueryを用いてDBに接続し、指定した期間のピボットテーブルとグラフを表示する
+
+### 3. スクレイピングをバッチファイルから実行
+-> 指定の時間にタスクスケジューラから実行され、最新データのみをDBに挿入する
+
+### 4. 取得したデータがDBに保存されているかの確認
+-> スクレイピングによって取得したデータはmarket_table、nj_buy_table、nj_sell_tableに保存され利用する
+
+[![紹介動画](docs\サムネイル.png)](https://youtu.be/OihXIm_BcHs)
+
 
 ## diagram
 
@@ -27,20 +43,4 @@ VBA_PortFolio_1
 上記プロセスを指定した時間に自動で実行します。
 
 これにより煩雑な作業をプログラムに任せ、データの分析作業に集中することができます。
-
-## Introduction video
-
-### 1. スクレイピングマクロの実行
--> Webサイト(https://www.net-japan.co.jp/precious_metal/kakaku_past.html)からjsonファイルを取得してDBに挿入します。実運用では繰り返し使われる処理ではないと想定されますが、技術の証明として作成しております。
-
-### 2. PowerQueryを用いたデータの更新と表示
--> 1.PowerQueryを用いてDBに接続し、指定した期間のピボットテーブルとグラフを表示する
-
-### 3. スクレイピングをバッチファイルから実行
--> 指定の時間にタスクスケジューラから実行され、最新データのみをDBに挿入する
-
-### 4. 取得したデータがDBに保存されているかの確認
--> スクレイピングによって取得したデータはmarket_table、nj_buy_table、nj_sell_tableに保存され利用する
-
-[![紹介動画](docs\サムネイル.png)](https://youtu.be/OihXIm_BcHs)
 
